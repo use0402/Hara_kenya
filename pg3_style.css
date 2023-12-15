@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.wrapall{position: relative;
+    width: 1159px;
+    margin: auto;}
+
+header{height: 139;
+    background-color: none;
+    display: flex;
+    justify-content: center;}
+header li{
+    font-size: 96px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #3E3E3E;
+    
+}
+a:link{color: #3E3E3E;}
+nav ul li a:hover{color: #3E3E3E;
+border-bottom: 1px solid #3E3E3E;}
+a:active{color: #3E3E3E;}
+a:visited{color: #3E3E3E;}
+nav{
+    background-color: none;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    width: 1146px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.wrap1{position: relative;
+justify-content: center;
+display: flex;
+height: 1867px;}
+.box{position: absolute;
+    top: 60px;
+    }
+.tex1{position: absolute;
+    font-family: 'Rufina', serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    top: 300px;}
+.tex2{position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    top: 380px;}
+.wrap2{position: relative;
+    justify-content: center;
+    display: flex;
+    width: 946px;}
+.tex3{position: absolute;
+    top: 1059px;
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;}
+.tex4{position: absolute;
+    top: 1158px;
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    text-align: center;}
+.tex5{position: absolute;
+    top: 1575px;
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    right: 30px;}
+
+
+
+
+
+        @keyframes moving1 
+        {0%{margin-top: 5%;opacity: 0;}
+            100%{margin-top: 0%;opacity: 1;}}
